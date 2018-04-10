@@ -1,0 +1,11 @@
+{
+  "name": "callback-listener-next-response",
+  "version": "1.0.0",
+  "description": "A simple module for listening for callbacks from APIs that utilise callbacks (eg. hooks).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
