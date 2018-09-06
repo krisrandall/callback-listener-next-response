@@ -1,11 +1,16 @@
 {
   "name": "callback-listener-next-response",
   "version": "1.0.0",
-  "description": "A simple module for listening for callbacks from APIs that utilise callbacks (eg. hooks).",
+  "description": "A module that listens on a port and keeps track of each HTTP request it receives, and makes them available via a `.nextResponse()` method",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1"
+  }
 }
